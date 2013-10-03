@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: mburtis
+Contributors: ethanhinson
 Tags: csv, export, excel, custom fields, custom post types
 Requires at least: 3.0.1
 Tested up to: 3.5.1
@@ -41,6 +41,8 @@ In the current version of the plugin, you mush first choose your post type and c
 == Changelog ==
 
 <<<<<<< .mine
+= .3 =
+Introduce taxonomy and default WordPress field export capabailities.
 = .2 = 
 *Fixed bug that limited number of posts that could be exported
 
