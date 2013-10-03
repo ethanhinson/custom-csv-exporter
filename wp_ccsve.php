@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom CSV Export Plugin
 Description: A plugin to export WP site content into a CSV file. 
-Version: .2
+Version: .3
 Author: Ethan Hinson
 Author URI: http://www.bluetentmarketing.com
 License: GPL2
