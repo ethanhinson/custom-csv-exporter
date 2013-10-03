@@ -1,0 +1,3 @@
+[25-Apr-2013 12:52:02] PHP Fatal error:  Call to undefined function  get_option() in /home4/maddykor/public_html/marthaburtis/csvdev/wp-content/plugins/wp_plugin_template-master/functions/exporter.php on line 3
+[25-Apr-2013 12:52:11] PHP Fatal error:  Call to undefined function  get_option() in /home4/maddykor/public_html/marthaburtis/csvdev/wp-content/plugins/wp_plugin_template-master/functions/exporter.php on line 3
+[25-Apr-2013 12:52:14] PHP Fatal error:  Call to undefined function  get_option() in /home4/maddykor/public_html/marthaburtis/csvdev/wp-content/plugins/wp_plugin_template-master/functions/exporter.php on line 3
