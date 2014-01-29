@@ -186,7 +186,7 @@ global $wpdb;
 
 
 function generate_std_fields($post_type){
-    $fields = array();
+    $fields = array('permalink', 'post_thumbnail');
     $q = new WP_Query(array('post_type' => $post_type, 'post_status' => 'publish', 'posts_per_page' => 1));
     $p = $q->posts[0];
     

@@ -26,7 +26,9 @@ function ccsve_generate(){
 	// Build an array of the custom field values
 	$ccsve_generate_value_arr = array();
 	$i = 0; 
-	foreach ($ccsve_generate_query as $post): setup_postdata($post);	
+	foreach ($ccsve_generate_query as $post): setup_postdata($post);
+			  	  $post->permalink = get_permalink($post->ID);
+		  		  $post->post_thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
                   // get the standard wordpress fields for each instance of the custom post type 
                   foreach($post as $key => $value) {
                       if(in_array($key, $ccsve_generate_std_fields['selectinput'])) {
