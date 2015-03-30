@@ -142,9 +142,10 @@ if(!class_exists('WP_CCSVE_Settings'))
       public function add_menu()
       {
             // Add a page to manage this plugin's settings
-       add_options_page(
+       add_submenu_page(
+         'tools.php',
          'CCSVE Settings',
-         'Custom CSV',
+         'CSV Content Export',
          'manage_options',
          'wp_ccsve_template',
          array(&$this, 'plugin_settings_page')
